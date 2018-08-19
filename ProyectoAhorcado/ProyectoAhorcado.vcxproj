@@ -115,6 +115,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Ahorcado\check word.cpp" />
+    <ClCompile Include="..\..\Ahorcado\Console.cpp" />
+    <ClCompile Include="..\..\Ahorcado\draw box.cpp" />
+    <ClCompile Include="..\..\Ahorcado\draw hangman.cpp" />
+    <ClCompile Include="..\..\Ahorcado\exit screen.cpp" />
+    <ClCompile Include="..\..\Ahorcado\finish.cpp" />
+    <ClCompile Include="..\..\Ahorcado\get dictionary.cpp" />
+    <ClCompile Include="..\..\Ahorcado\get key pressed.cpp" />
+    <ClCompile Include="..\..\Ahorcado\Gobal.cpp" />
+    <ClCompile Include="..\..\Ahorcado\help.cpp" />
+    <ClCompile Include="..\..\Ahorcado\main.cpp" />
+    <ClCompile Include="..\..\Ahorcado\menu.cpp" />
+    <ClCompile Include="..\..\Ahorcado\one player.cpp" />
+    <ClCompile Include="..\..\Ahorcado\two player prep.cpp" />
+    <ClCompile Include="..\..\Ahorcado\two player.cpp" />
+    <ClCompile Include="..\..\Ahorcado\welcome.cpp" />
+    <ClCompile Include="..\..\Ahorcado\write hangman.cpp" />
+    <ClCompile Include="Nodo.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayersList.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Ahorcado\Console.h" />
+    <ClInclude Include="..\..\Ahorcado\Global.h" />
+    <ClInclude Include="..\..\Ahorcado\timer.h" />
+    <ClInclude Include="Nodo.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayersList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
